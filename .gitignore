@@ -37,6 +37,7 @@ web/sites/*/files/php
 /web/themes/custom/*/css
 /vendor
 /.idea
+/.docksal
 .csslintrc
 .editorconfig
 .eslintignore
