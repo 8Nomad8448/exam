@@ -7,6 +7,11 @@ $primary-dark: darken($primary-shade, 12%);
 $accent-shade: #0079C0;
 $accent-light: lighten($accent-shade, 37%);
 $accent-dark: darken($accent-shade, 12%);
+$transparent: transparent;
+$dark-blue: #373645;
+$light-blue: #6e9bca;
+$grey-light: #e4e4e6;
+$grey: #cccccc;
 // Reassign color vars to semantic color scheme
 $red: #dc3545;
 $yellow: #ffc107;
@@ -43,3 +48,12 @@ $comment-spacer-y: 1.25em;
 $enable-responsive-font-sizes: true;
 $enable-shadows: false;
 $enable-gradients: false;
+// font-weights
+$weight-light: 300;
+$weight-lesser-medium: 400;
+$weight-medium: 700;
+$weight-bold: 900;
+// letter-spacing
+$letter-sp-small: .02em;
+$letter-sp-med: .1em;
+$letter-sp-bg: .3em;
