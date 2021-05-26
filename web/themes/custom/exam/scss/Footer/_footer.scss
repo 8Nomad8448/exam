@@ -15,14 +15,15 @@
         height: 4em;
         background: $dark-blue;
         .text-formatted p{
-          @include text(20px, $weight-medium, 22px, $letter-sp-small);
+          @include text(28px, $weight-medium, 22px, $letter-sp-small);
           @include colors($transparent, $light-blue);
           margin-bottom: 0;
           margin-top: .6em;
         }
         .field--name-field-footer-subtitle {
-          @include text(10px, $weight-light, 16px, $letter-sp-small);
+          @include text(12px, $weight-light, 16px, $letter-sp-small);
           @include colors($transparent, $grey-light);
+          margin-top: .25em;
         }
       }
       #block-blockfooterright {

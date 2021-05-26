@@ -6,16 +6,19 @@
     .container {
       max-width: 1250px;
       width: 100%;
+      margin-bottom: -6em;
+      height: auto;
+      background: $white;
+      display: flex;
     }
   }
   #CollapsingNavbar {
-    height: auto;
-    background: $white;
-    width: 100%;
-    display: flex;
+    width: fit-content;
+    background: #fff;
     justify-content: space-between!important;
     #block-blocksitebranding {
       padding: 0 14px;
+      margin-left: -14px;
       text-align: center;
       height: 4em;
       background: $dark-blue;

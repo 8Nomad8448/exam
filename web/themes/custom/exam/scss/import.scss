@@ -18,12 +18,14 @@
 //fonts
 @import "fonts/poppins.scss";
 
+//styles for pages block
+@import "pages/pages.scss";
+
 //styles for Navbar block
 @import "Navbar/navbar.scss";
 
 //styles for Header block
 @import "Header/header.scss";
-//custom styling 
 
 //styles for About block
 @import "About/about.scss";
@@ -48,9 +50,6 @@
 
 //styles for Contacts block
 @import "Contacts/contacts.scss";
-
-//styles for Repeated block
-@import "Repeated/repeated.scss";
 
 //styles for Adaptive block
 @import "Adaptive/adaptive.scss";
