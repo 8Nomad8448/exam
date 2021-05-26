@@ -1,10 +1,11 @@
-.toolbar-tray-open  #page #header{
+.path-frontpage  #page #header{
   #navbar-main {
     width: 100%;
     display: flex;
     justify-content: center;
     .container {
-      width: 1250px;
+      max-width: 1250px;
+      width: 100%;
     }
   }
   #CollapsingNavbar {
@@ -12,11 +13,10 @@
     background: $white;
     width: 100%;
     display: flex;
-    justify-content: stretch!important;
+    justify-content: space-between!important;
     #block-blocksitebranding {
-      padding: 0;
+      padding: 0 14px;
       text-align: center;
-      width: 15%;
       height: 4em;
       background: $dark-blue;
       .text-formatted p{
@@ -32,8 +32,7 @@
     }
     .block-menu {
       background: $white;
-      width: 53%;
-      padding: 0;
+      padding: 0 10px;
       display: flex;
       justify-content: space-evenly!important;
       .navbar-nav .nav-item{
@@ -45,14 +44,17 @@
       }
     }
     #block-blocksocials {
-      width: 10%;
+      padding: 0 10px;
       .social-media-links--platforms {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         margin: 0;
         li {
-          margin-bottom: 0;
+          margin: 0 8px 0 0;
+          &:last-child {
+            margin-right: 0;
+          }
           a {
             padding: 10px 5px 4px;
             @include text(8px, none, normal, normal);
@@ -64,8 +66,7 @@
     }
   }
   #block-exam-search {
-    padding: 0;
-    width: 22%;
+    padding: 0 10px;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -79,9 +80,12 @@
         @include colors($transparent, $grey);
         border-radius: 0;
       }
+      input {
+        width: 13em;
+      }
       button {
         font-size: 0;
-        background-image: url(../images/search.png);
+        background-image: url("../images/search.png");
         background-repeat: no-repeat;
         background-size: cover;
         padding: 1.125rem;

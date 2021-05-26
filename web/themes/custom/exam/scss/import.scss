@@ -15,37 +15,40 @@
 // mixins
 @import "mixins";
 
+//fonts
+@import "fonts/poppins.scss";
+
 //styles for Navbar block
-@import "Navbar/_navbar.scss";
+@import "Navbar/navbar.scss";
 
 //styles for Header block
-@import "Header/_header.scss";
+@import "Header/header.scss";
 //custom styling 
 
 //styles for About block
-@import "About/_about.scss";
+@import "About/about.scss";
 
 //styles for Services block
-@import "Services/_services.scss";
+@import "Services/services.scss";
 
 //styles for Projects block
-@import "Projects/_projects.scss";
+@import "Projects/projects.scss";
 
 //styles for Team block
-@import "Team/_team.scss";
+@import "Team/team.scss";
 
 //styles for News block
-@import "News/_news.scss";
+@import "News/news.scss";
 
 //styles for Clients block
-@import "Clients/_clients.scss";
+@import "Clients/clients.scss";
 
 //styles for Contacts block
-@import "Contacts/_contacts.scss";
+@import "Contacts/contacts.scss";
 
 //styles for Repeated block
-@import "Repeated/_repeated.scss";
+@import "Repeated/repeated.scss";
 
 //styles for Adaptive block
-@import "Adaptive/_adaptive.scss";
+@import "Adaptive/adaptive.scss";
 
